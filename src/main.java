@@ -2,29 +2,40 @@ import java.util.Scanner;
 
 public class main{
     public static void main(String[] args) {
-        System.out.println("     Al fin despierto, hace cuanto dormi??... no importa.");
-        System.out.println(" Por cierto, quien eres tú??, dime tu nombre.");
+        System.out.println("");
+
+        System.out.println("Al fin despierto, hace cuanto dormi??... no importa.");
+        System.out.println("Por cierto, quien eres tú??, dime tu nombre.");
+        System.out.println("");
         Scanner name = new Scanner(System .in);
         String nombre= name.nextLine();
         String saludo= ", un gusto conocerte.";
+        System.out.println("");
         System.out.println("asi que " +nombre+saludo);
 
-       
-       System.out.println("cual es tu edad");
+       System.out.println(" ");
+
+       System.out.println("dime cual es tu edad");
+       System.out.println("");
         Scanner edad= new Scanner(System .in);
         int old;
         old= edad.nextInt();
-        System.out.println("asi que "+old+", esta bien");
+        System.out.println("");
+        System.out.println("asi que "+old+", esta bien.  y dime, cuanto mides??");
        
+        System.out.println(" ");
 
 
-        System.out.println("y dime cuanto mides");
         Scanner alto= new Scanner(System .in);
         double altura;
         altura=alto.nextDouble();
+        System.out.println("");
         System.out.println(altura+" esta muy bien");
 
+        System.out.println(" ");
+
         System.out.println("me permites contarte una historia, responde true o false.");
+        System.out.println("");
         Scanner historia=new Scanner(System .in);
         boolean cuento;
         cuento =historia.nextBoolean();
@@ -39,7 +50,7 @@ public class main{
                                 "\r\n" + //
                                 "Lyria sonrió y, con un gesto de su mano, invitó a Alaric a unirse a su danza. Juntos, recorrieron el bosque, descubriendo secretos ocultos y compartiendo historias de sus mundos. Alaric le mostró a Lyria la magia de los elementos, mientras ella le enseñaba los misterios de la naturaleza y la vida.\r\n" + //
                                 "\r\n" + //
-                                "Con el tiempo, su amistad se transformó en algo más profundo.Pero un dia invadieron el bosque y quemaron  todo, incluyendo a Lyria, el mago destrosado nunca ha podido amar");
+                                "Con el tiempo, su amistad se transformó en algo más profundo.Pero un dia invadieron el bosque y quemaron  todo, incluyendo a Lyria, el mago destrosado nunca ha vuelto a amar");
         }
         else{System.out.println("ok, esta bien");}
     
